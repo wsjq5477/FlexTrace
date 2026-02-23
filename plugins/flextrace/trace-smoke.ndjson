@@ -1,0 +1,7 @@
+{"type":"capture_start","captureId":"demo","ts":1771504679375,"attrs":{"plugin":"flextrace"}}
+{"type":"session","op":"upsert","ts":1771504679375,"sessionId":"s1","rootSessionId":"s1","label":"推进项目进展","attrs":{"sessionTitle":"推进项目进展"}}
+{"type":"task_start","ts":1771504679376,"taskId":"t1","sessionId":"s1","rootSessionId":"s1","kind":"skill","name":"skill:plan","attrs":{"toolName":"skill","agent":"pm","activity":"reasoning"}}
+{"type":"tracepoint","ts":1771504679376,"tpId":"e1","sessionId":"s1","rootSessionId":"s1","parentTaskId":"t1","name":"plan.generated","level":"info","attrs":{"k":1},"links":[]}
+{"type":"task_end","ts":1771504679377,"taskId":"t1","sessionId":"s1","rootSessionId":"s1","status":"ok","durationMs":1,"attrs":{"toolName":"skill"}}
+{"type":"counter","ts":1771504679377,"name":"artifact.count","sessionId":"s1","rootSessionId":"s1","value":3,"attrs":{"agent":"pm"}}
+{"type":"capture_end","captureId":"demo","ts":1771504679378}

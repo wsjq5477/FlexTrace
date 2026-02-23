@@ -1,0 +1,21 @@
+{
+  "traceEvents": [
+    {
+      "name": "skill:plan",
+      "cat": "reasoning",
+      "ph": "X",
+      "ts": 1771504679376000,
+      "dur": 1000,
+      "pid": 1,
+      "tid": 1,
+      "args": {
+        "sessionId": "s1",
+        "rootSessionId": "s1",
+        "taskId": "t1",
+        "agent": "pm",
+        "activity": "reasoning",
+        "status": "ok"
+      }
+    }
+  ]
+}
